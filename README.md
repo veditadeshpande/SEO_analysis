@@ -16,5 +16,4 @@ npm run server
 ```
 ## Deployed link
 ```bash
-https://citysail.netlify.app/
 ```
