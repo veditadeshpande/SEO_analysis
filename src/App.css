@@ -25,7 +25,7 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: #549fca;
 }
 
 /* .autocomplete-container {
@@ -54,20 +54,3 @@ body, html {
   height: 100%;
 }
 
-/*
-.container {
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-}
-
-.map-container {
-  flex: 1; 
-  margin-left:50px;
-  margin-top: 50px;
-
-}
-
-.autocomplete-container {
-  flex: 1; 
-}*/

@@ -1,13 +1,23 @@
 .large-checkbox {
-    transform: scale(1.5); /* Adjust the scale factor to make the checkboxes larger or smaller */
+    transform: scale(2.5); 
   }
 
   .checkbox-label {
     display: flex;
     align-items: center;
+    padding: 30px;
   }
 
 
+  .checkbox {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+  }
 
+  .clable{
+    padding-left: 20px;
+    text-justify: auto;
+  }
 
   

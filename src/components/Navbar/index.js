@@ -8,7 +8,7 @@ const Navbar = () => {
   const customTheme = createTheme({
     palette: {
       primary: {
-        main: '#008080', 
+        main: '#333333', 
       },
       type: 'dark', 
     },
@@ -17,18 +17,18 @@ const Navbar = () => {
   return (
     <>
       {/* Navigation bar */}
-      <AppBar style={{ paddingLeft: '20px' }} sx={{ backgroundColor: customTheme.palette.primary.main }}>
+      <AppBar style={{ paddingLeft: '25px' }} sx={{ backgroundColor: customTheme.palette.primary.main }}>
       <Toolbar>
 
-        <div style={{ display: 'flex', alignItems: 'center' }}>
+        <div style={{ display: '', alignItems: 'center' }}>
           {/* Logo */}
           <img
             src={logoImage}
             alt="Logo"
             style={{
-              height: '90px', // Adjust the height as needed
-              width: 'auto', // Maintain aspect ratio
-              marginRight: '10px', // Optional: Add some right margin for spacing
+              height: '90px', 
+              width: 'auto',
+              padding: 5
             }}
           />
         </div>
